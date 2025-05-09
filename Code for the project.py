@@ -32,3 +32,5 @@ if will_rain:
     requests.post(f"{facebook}️🌡️Weather Forecast️🌡️️️\n{current_date}\n\n☔ It will rain today, you will need an umbrella! ☔{details}")
 else:
     requests.post(f"{facebook}🌡️Weather Forecast️🌡️️️\n{current_date}\n\n☀️ It will be a dry day! ☀️{details}")
+
+
