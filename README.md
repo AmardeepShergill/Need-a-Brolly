@@ -1,5 +1,6 @@
 # Need-a-Brolly
-A Python API app to confirm if you need a Umberella for the day 
+A Python API app to confirm if you need a Umberella for the day perfect for the British weather.
+
 
 This will use the OpenWeatherMap API to retrive real-time weather forecase data and the send me a message on with the result. 
 
