@@ -6,8 +6,6 @@ facebook = os.environ.get("FACEBOOK")
 parameters = os.environ.get("PARAM")
 parameters = eval(parameters)
 
-
-
 url = requests.get("https://api.openweathermap.org/data/2.5/forecast?", params=parameters)
 data = url.json()
 date = dt.datetime.now()
