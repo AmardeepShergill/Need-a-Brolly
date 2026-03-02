@@ -20,6 +20,8 @@ for x in range(4):
     else:
         slot.append(0)
 
+
+
 for x in range(4):
     if slot[x] == 1:
         slot[x] = "☔"
